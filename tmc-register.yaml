@@ -1,0 +1,8 @@
+apiVersion: installers.tmc.cloud.vmware.com/v1alpha1
+kind: AgentInstall
+metadata:
+  name: tmc-agent-installer-config
+  namespace: svc-tmc-c7
+spec:
+  operation: INSTALL
+  registrationLink: https://openso.tmc.cloud.vmware.com/installer?id=f94a5cbd7a20abfaf5ba06ea55627cb3923b309f18698d2663e675390af94528&source=registration
